@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "homo",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/JSEAESL/learn-three",
+    "type": "git"
+  },
   "author": "J_SEA",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "server": "live-server --port=8081"
+  },
+  "dependencies": {
+    "live-server-https": "^0.0.2"
+  }
 }
